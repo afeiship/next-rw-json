@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-rollup-banner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rollup banner for next.",
   "homepage": "https://github.com/afeiship/next-rollup-banner",
   "author": {
@@ -36,5 +36,8 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "@feizheng/next-nice-comments": "^1.1.0"
   }
 }

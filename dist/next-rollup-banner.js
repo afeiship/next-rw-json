@@ -2,8 +2,8 @@
  * name: @feizheng/next-rollup-banner
  * description: Rollup banner for next.
  * homepage: https://github.com/afeiship/next-rollup-banner
- * version: 1.0.0
- * date: 2020-07-09T13:42:43.613Z
+ * version: 1.0.1
+ * date: 2020-07-09T14:27:11.457Z
  * license: MIT
  */
 
