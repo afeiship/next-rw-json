@@ -13,7 +13,7 @@
         'date: ' + new Date().toISOString(),
         'license: <%= pkg.license %>'
       ],
-      'pure'
+      'raw'
     );
   };
 
