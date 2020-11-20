@@ -1,7 +1,7 @@
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-  var nxNiceComments = nx.niceComments || require('@feizheng/next-nice-comments');
+  var nx = global.nx || require('@jswork/next');
+  var nxNiceComments = nx.niceComments || require('@jswork/next-nice-comments');
 
   nx.rollupBanner = function () {
     return nxNiceComments(

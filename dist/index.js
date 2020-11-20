@@ -1,16 +1,16 @@
 /*!
- * name: @feizheng/next-rollup-banner
+ * name: @jswork/next-rollup-banner
  * description: Rollup banner for next.
  * homepage: https://github.com/afeiship/next-rollup-banner
- * version: 1.0.2
- * date: 2020-09-01T06:38:22.228Z
+ * version: 1.0.0
+ * date: 2020-11-20 13:17:30
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-  var nxNiceComments = nx.niceComments || require('@feizheng/next-nice-comments');
+  var nx = global.nx || require('@jswork/next');
+  var nxNiceComments = nx.niceComments || require('@jswork/next-nice-comments');
 
   nx.rollupBanner = function () {
     return nxNiceComments(
