@@ -3,7 +3,7 @@
  * description: Rollup banner for next.
  * homepage: https://github.com/afeiship/next-rollup-banner
  * version: 1.0.0
- * date: 2020-11-20 13:17:30
+ * date: 2020-11-20 13:21:54
  * license: MIT
  */
 

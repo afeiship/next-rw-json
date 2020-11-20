@@ -39,5 +39,12 @@
   },
   "dependencies": {
     "@jswork/next-nice-comments": "^1.0.1"
-  }
+  },
+  "keywords": [
+    "next",
+    "rollup",
+    "banner",
+    "header",
+    "comments"
+  ]
 }
