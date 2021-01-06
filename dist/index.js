@@ -2,8 +2,8 @@
  * name: @jswork/next-rollup-banner
  * description: Rollup banner for next.
  * homepage: https://github.com/afeiship/next-rollup-banner
- * version: 1.0.1
- * date: 2021-01-06 22:50:06
+ * version: 1.0.2
+ * date: 2021-01-06 22:50:41
  * license: MIT
  */
 
