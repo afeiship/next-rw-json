@@ -2,13 +2,13 @@
  * name: @jswork/next-rollup-banner
  * description: Rollup banner for next.
  * homepage: https://github.com/afeiship/next-rollup-banner
- * version: 1.0.0
- * date: 2020-11-20 13:21:54
+ * version: 1.0.1
+ * date: 2021-01-06 22:37:52
  * license: MIT
  */
 
 (function () {
-  var global = global || this || window || Function('return this')();
+  var global = global || window || Function('return this')();
   var nx = global.nx || require('@jswork/next');
   var nxNiceComments = nx.niceComments || require('@jswork/next-nice-comments');
 
