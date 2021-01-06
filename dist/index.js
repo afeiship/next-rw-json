@@ -3,12 +3,12 @@
  * description: Rollup banner for next.
  * homepage: https://github.com/afeiship/next-rollup-banner
  * version: 1.0.1
- * date: 2021-01-06 22:37:52
+ * date: 2021-01-06 22:50:06
  * license: MIT
  */
 
 (function () {
-  var global = global || window || Function('return this')();
+  var global = global || Function('return this')();
   var nx = global.nx || require('@jswork/next');
   var nxNiceComments = nx.niceComments || require('@jswork/next-nice-comments');
 

@@ -1,5 +1,5 @@
 (function () {
-  var global = global || window || Function('return this')();
+  var global = global || Function('return this')();
   var nx = global.nx || require('@jswork/next');
   var nxNiceComments = nx.niceComments || require('@jswork/next-nice-comments');
 
