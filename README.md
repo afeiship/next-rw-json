@@ -15,7 +15,11 @@ yarn add @jswork/next-rw-json
 ```js
 import '@jswork/next-rw-json';
 
-//DOCS here!
+const filepath = './testconfigrc';
+// read
+const data = nx.RwJson.read(filepath);
+// write
+nx.RwJson.write('./testpath/test.json', { data: 123 });
 ```
 
 ## license
