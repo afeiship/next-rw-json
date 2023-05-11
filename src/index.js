@@ -1,23 +1,22 @@
-(function () {
-  var global = global || Function('return this')();
-  var nx = global.nx || require('@jswork/next');
-  var nxNiceComments = nx.niceComments || require('@jswork/next-nice-comments');
+import nx from '@jswork/next';
+import fs from 'fs';
 
-  nx.rollupBanner = function () {
-    return nxNiceComments(
-      [
-        'name: <%= pkg.name %>',
-        'description: <%= pkg.description %>',
-        'homepage: <%= pkg.homepage %>',
-        'version: <%= pkg.version %>',
-        'date: ' + new Date().toISOString(),
-        'license: <%= pkg.license %>'
-      ],
-      'raw'
-    );
-  };
-
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.rollupBanner;
+const NxRwJson = nx.declare('nx.RwJson', {
+  statics: {
+    read: function (inPath) {
+      return JSON.parse(fs.readFileSync(inPath, 'utf-8').toString());
+    },
+    write: function (inPath, inData) {
+      if (typeof inData === 'object') {
+        inData = JSON.stringify(inData, null, 2);
+      }
+      fs.writeFileSync(inPath, inData);
+    }
   }
-})();
+});
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = NxRwJson;
+}
+
+export default NxRwJson;

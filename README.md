@@ -1,5 +1,5 @@
-# next-rollup-banner
-> Rollup banner for next.
+# next-rw-json
+> Read and write json file.
 
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
@@ -8,36 +8,27 @@
 
 ## installation
 ```bash
-npm install -S @jswork/next-rollup-banner
+yarn add @jswork/next-rw-json
 ```
 
 ## usage
 ```js
-import '@feizheng/next-rollup-banner';
+import '@jswork/next-rw-json';
 
-nx.rollupBanner();
-
-/*
-     name: <%= pkg.name %>
-     description: <%= pkg.description %>
-     homepage: <%= pkg.homepage %>
-     version: <%= pkg.version %>
-     date: 2020-07-09T13:42:26.535Z
-     license: <%= pkg.license %>
-*/
+//DOCS here!
 ```
 
 ## license
-Code released under [the MIT license](https://github.com/afeiship/next-rollup-banner/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/next-rw-json/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@jswork/next-rollup-banner
-[version-url]: https://npmjs.org/package/@jswork/next-rollup-banner
+[version-image]: https://img.shields.io/npm/v/@jswork/next-rw-json
+[version-url]: https://npmjs.org/package/@jswork/next-rw-json
 
-[license-image]: https://img.shields.io/npm/l/@jswork/next-rollup-banner
-[license-url]: https://github.com/afeiship/next-rollup-banner/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/next-rw-json
+[license-url]: https://github.com/afeiship/next-rw-json/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-rollup-banner
-[size-url]: https://github.com/afeiship/next-rollup-banner/blob/master/dist/next-rollup-banner.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-rw-json
+[size-url]: https://github.com/afeiship/next-rw-json/blob/master/dist/next-rw-json.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@jswork/next-rollup-banner
-[download-url]: https://www.npmjs.com/package/@jswork/next-rollup-banner
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-rw-json
+[download-url]: https://www.npmjs.com/package/@jswork/next-rw-json
