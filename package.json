@@ -50,5 +50,8 @@
     "json",
     "read",
     "write"
-  ]
+  ],
+  "dependencies": {
+    "json5": "^2.2.3"
+  }
 }
