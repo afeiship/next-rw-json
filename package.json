@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-rw-json",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Read and write json file.",
   "homepage": "https://js.work",
   "author": {
@@ -43,5 +43,12 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "fs",
+    "json",
+    "read",
+    "write"
+  ]
 }
